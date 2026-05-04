@@ -61,3 +61,12 @@ input[type]{
 div[id="myId"] p {
     color: green;
 }
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* h3:hover{
+    text-decoration: overline;
+} */
