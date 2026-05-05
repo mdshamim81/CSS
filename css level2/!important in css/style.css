@@ -1,3 +1,6 @@
+h3{
+    background-color: antiquewhite !important;
+}
 *{
     font-family: 'Courier New';
 }
@@ -89,3 +92,22 @@ button:hover {
     background-color: blanchedalmond;
  }
 
+ h1::first-letter{
+    color: pink;
+ }
+
+ p::first-line{
+    color: blue;
+ }
+
+ p::selection{
+    background-color: rgb(155, 155, 22);
+ }
+
+ h3{
+    background-color: yellow;
+ }
+
+ h3{
+    background-color: blue;
+ }

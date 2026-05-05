@@ -89,3 +89,14 @@ button:hover {
     background-color: blanchedalmond;
  }
 
+ h1::first-letter{
+    color: pink;
+ }
+
+ p::first-line{
+    color: blue;
+ }
+
+ p::selection{
+    background-color: rgb(155, 155, 22);
+ }
