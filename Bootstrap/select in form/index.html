@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select in form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form Demo</h2>
+        <form>
+            <div class="mp-3">
+                <label for="email" class="form-label">Email</label>
+                <input 
+                type="text"
+                class="form-control"
+                placeholder="email"
+                id="email">
+            </div>
+            
+            <div class="mp-3">
+                <label for="password" class="form-label">Password</label>
+                <input 
+                type="password"
+                class="form-control"
+                placeholder="password"
+                id="password">
+            </div>
+            
+            <div class="mp-3">
+                <br>
+                <select class="form-select">
+                    <option selected>Choose your city</option>
+                    <option value="1">Mumbai</option>
+                    <option value="2">Kolkata</option>
+                    <option value="3">Delhi</option>
+                </select>
+                
+            </div>
+            
+        </form>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
